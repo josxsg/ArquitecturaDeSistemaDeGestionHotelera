@@ -11,6 +11,7 @@ Por lo tanto, se justifica la creación de una plataforma de reservaciones centr
 == Alcance y Propósito del Diseño
 Este apartado formaliza el alcance, las fronteras y el propósito del diseño arquitectónico para el nuevo Sistema de Reservaciones centralizado. Su objetivo es establecer un entendimiento común entre todos los interesados (stakeholders) sobre los límites del sistema, sus responsabilidades y las metas que se persiguen. Siguiendo la metodología Attribute-Driven Design (ADD), este análisis es el primer paso crucial, ya que las metas de negocio y las preocupaciones de los interesados, aquí descritas, servirán como la entrada principal para identificar y priorizar los impulsores arquitectónicos (Architectural Drivers), especialmente los atributos de calidad que darán forma a la estructura del software.
 
+image::diagramaContexto.jpg[Diagrama de Contexto]
 === Fronteras del Sistema
 Las fronteras definen qué funcionalidades y responsabilidades pertenecen al sistema a construir y cuáles quedan fuera o son gestionadas por sistemas externos. El diagrama de contexto visualiza estas fronteras, mostrando al Sistema de Reservaciones como el componente central que interactúa con usuarios y sistemas externos, pero que no los incluye.
 
@@ -88,3 +89,18 @@ Los directivos que patrocinan el proyecto y esperan un retorno de la inversión.
 * *Alineación Estratégica:* El sistema debe cumplir su visión de transformar la gestión de reservaciones de un costo operativo a una ventaja competitiva.
 * *Mitigación de Riesgos:* La arquitectura debe ser resiliente y capaz de manejar picos de tráfico no previstos, degradando el servicio de manera controlada en lugar de fallar por completo.
 * *Coste Total de Propiedad (TCO):* Se preocupan por los costos a largo plazo de mantener y operar la solución, por lo que la eficiencia y la escalabilidad del sistema son importantes.
+
+
+== Diagramas de Casos de Uso (CU)
+
+// Diagrama de Auditoría
+image::diagramas_cu/CU_Auditoría.jpg[CU de Auditoría]
+
+// Diagrama de Huésped
+image::diagramas_cu/CU_Huésped.jpg[CU de Huésped]
+
+// Diagrama de Administración
+image::diagramas_cu/CU_Administración.jpg[CU de Administración]
+
+// Diagrama de Recepcionista
+image::diagramas_cu/CU_Recepcionista.jpg[CU de Recepcionista]
